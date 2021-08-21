@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace Encapsulamento
 {
-    public class Motor
-    {
+    public class Motor{}
     }
     public class Bateria
     {
@@ -36,7 +35,7 @@ namespace Encapsulamento
     //Construtor
     public Carro(string nome)
     {
-        
+
     }
         Console.WriteLine("Criando objeto Carro");
         _motor = new Motor();
