@@ -36,6 +36,8 @@ namespace Encapsulamento
     //Construtor
     public Carro(string nome)
     {
+        
+    }
         Console.WriteLine("Criando objeto Carro");
         _motor = new Motor();
         _bateria = new Bateria();
